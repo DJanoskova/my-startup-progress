@@ -48,7 +48,7 @@ function App() {
       setRandomFact(response);
     };
 
-    const areAllTasksCompleted = tasks.every((task) => task.completed);
+    const areAllTasksCompleted = tasks.length && tasks.every((task) => task.completed);
 
     if (areAllTasksCompleted) {
       handleFetchFunFact();
