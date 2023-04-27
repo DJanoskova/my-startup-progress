@@ -6,7 +6,7 @@
 
 - State management
 
-  - I thought it would be a funny and a non-tranditional way to showcase same of my passions and use my own state management library called `rgstate`, which usage very much resembles React's useState and useContext combined and also supports `localstorage` integration, so it helped me fill the requirements of the task.
+  - I thought it would be a funny and a non-tranditional way to showcase some of my passions and use my own state management library called `rgstate`, which usage very much resembles React's useState and useContext combined and also supports `localstorage` integration, so it helped me fill the requirements of the task.
 
   - Some of the state is also local - the random fact. I felt like that didn't need to be stored globally.
 

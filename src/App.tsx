@@ -6,13 +6,13 @@ import { TasksState } from "./state/TasksState";
 
 import { fetchPhases } from "./api/phases.api";
 import { fetchTasks } from "./api/tasks.api";
+import { fetchRandomFact } from "./api/facts.api";
 import {
   getIsPhaseLocked,
   getPhasesWithGroupedTasks,
 } from "./helpers/phases.helpers";
 
 import { PhaseTaskList } from "./components/PhaseTaskList";
-import { fetchRandomFact } from "./api/facts.api";
 
 function App() {
   const [phases, setPhases] = useGlobalState(PhasesState);
@@ -30,7 +30,7 @@ function App() {
       setTasks(tasksResponse);
     };
 
-    // this condition is in place for only initial data check
+    // this condition is in place for only initial data fetch
     // otherwise local storage-stored data would get replaced with server data again
     if (!phases.length || !tasks.length) handleFetchData();
   }, [phases, tasks, setPhases, setTasks]);
