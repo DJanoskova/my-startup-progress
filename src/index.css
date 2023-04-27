@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+input {
+  accent-color: #09cc76;
+}
+
+.app {
+  display: "flex";
+  align-items: "center";
+  justify-content: center;
+  background: #fff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px 40px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgb(131 130 218 / 15%);
+}
+
+.flex-row {
+  display: flex;
+  gap: 8px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.checkbox {
+  padding: 4px 0;
+}
+
+.text-success {
+  color: #09cc76;
+}

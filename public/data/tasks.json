@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "label": "Setup virtual office",
+    "completed": false,
+    "phase_id": 1
+  },
+  {
+    "id": 2,
+    "label": "Set mission & vision",
+    "completed": false,
+    "phase_id": 1
+  },
+  {
+    "id": 3,
+    "label": "Select business name",
+    "completed": false,
+    "phase_id": 1
+  },
+  {
+    "id": 4,
+    "label": "Buy domains",
+    "completed": false,
+    "phase_id": 1
+  },
+  {
+    "id": 5,
+    "label": "Create roadmap",
+    "completed": false,
+    "phase_id": 2
+  },
+  {
+    "id": 6,
+    "label": "Competitor analysis",
+    "completed": false,
+    "phase_id": 2
+  },
+  {
+    "id": 7,
+    "label": "Release marketing website",
+    "completed": false,
+    "phase_id": 3
+  },
+  {
+    "id": 8,
+    "label": "Release MPV",
+    "completed": false,
+    "phase_id": 3
+  }
+]
