@@ -12,7 +12,6 @@ export const getPhasesWithGroupedTasks = (
       ...phase,
       tasks: phaseTasks,
       completed: phaseTasks.every((task) => task.completed),
-      locked: false,
     };
   });
 };
