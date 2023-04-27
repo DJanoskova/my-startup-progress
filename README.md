@@ -23,7 +23,7 @@
   - I am paying for a personal copilot, so I believe it helped me be faster in delivering this solution. I hope that doesn't count as hacking!
 
 - VSCode editor settings
-  - There's no prettier file, which is a potential future improvement, but there is a .vscode folter with settings to format the code nicely.
+  - There's no prettier file, which is a potential future improvement, but there is a .vscode folder with settings to format the code nicely.
 
 ## App's behaviors
 
@@ -32,6 +32,8 @@ The task was pretty vague, so I decided to implement some of the behaviors such 
 Each time you complete all the tasks, undo a task and then complete it again, a new random fact is fetched. This behavior is intentional.
 
 There's no visual feedback for the user in form of errors or toast messages, which for sure could be a future improvement - for example letting them know why they cannot check a task in a disabled phase.
+
+You can see the preview at https://elaborate-mooncake-6594f0.netlify.app/
 
 ## Timebox
 
